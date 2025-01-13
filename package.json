@@ -1,0 +1,41 @@
+{
+  "name": "gifted-charts-maths",
+  "version": "0.0.0",
+  "description": "Mathematical and logical utilities used by Gifted charts",
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf ./dist && tsc -p . && ./build.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": "https://github.com/Abhinandan-Kushwaha/gifted-charts-maths",
+  "author": "Abhinandan Kushwaha <kushabhi5@gmail.com> (https://github.com/Abhinandan-Kushwaha)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Abhinandan-Kushwaha/gifted-charts-maths/issues"
+  },
+  "homepage": "https://github.com/Abhinandan-Kushwaha/gifted-charts-maths#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "gifted-charts"
+  ]
+}
